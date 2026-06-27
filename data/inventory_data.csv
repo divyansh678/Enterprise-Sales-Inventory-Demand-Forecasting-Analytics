@@ -1,0 +1,501 @@
+SKUID,ProductName,Category,UnitCost,UnitPrice,StockOnHand,ReorderPoint,LeadTimeDays,WarehouseLocation,Supplier,Status
+SKU-00001,Plus System SE,Sports,190.4,407.04,954,115,31,WH-B-01,SUP-043,Active
+SKU-00002,Basic Module Pro,Automotive,475.6,924.24,360,110,17,WH-C-20,SUP-050,Active
+SKU-00003,Plus Tool Pro,Health & Beauty,367.34,613.98,61,148,5,WH-D-22,SUP-010,Active
+SKU-00004,Plus Set Go,Sports,301.34,686.02,313,125,31,WH-C-12,SUP-050,Seasonal
+SKU-00005,Basic Unit X2,Electronics,82.23,174.47,969,61,37,WH-C-15,SUP-002,Seasonal
+SKU-00006,Pro Set Plus,Sports,82.22,122.93,756,118,40,WH-A-49,SUP-010,Active
+SKU-00007,Advanced Unit Go,Health & Beauty,33.75,80.77,336,147,39,WH-D-15,SUP-046,Active
+SKU-00008,Plus System X2,Apparel,433.76,992.03,771,115,3,WH-A-02,SUP-014,Discontinued
+SKU-00009,Premium Gadget Plus,Sports,302.55,738.15,127,112,34,WH-C-26,SUP-007,Active
+SKU-00010,Plus Module 500,Health & Beauty,355.5,771.74,736,57,31,WH-D-23,SUP-013,Active
+SKU-00011,Plus System 3000,Automotive,15.19,30.93,541,81,6,WH-C-25,SUP-018,Seasonal
+SKU-00012,Max Set 3000,Food & Beverage,485.11,874.12,544,142,42,WH-C-12,SUP-047,Discontinued
+SKU-00013,Pro Unit SE,Office Supplies,417.06,1008.98,95,105,20,WH-A-32,SUP-044,Discontinued
+SKU-00014,Elite Device X1,Home & Garden,110.11,257.58,416,44,22,WH-D-41,SUP-001,Active
+SKU-00015,Premium System 500,Electronics,95.0,128.65,487,20,40,WH-A-21,SUP-012,Seasonal
+SKU-00016,Basic Kit SE,Apparel,95.79,127.56,58,68,6,WH-C-48,SUP-017,Seasonal
+SKU-00017,Pro Unit Go,Food & Beverage,155.6,272.57,312,88,31,WH-A-49,SUP-039,Active
+SKU-00018,Mini Module 3000,Health & Beauty,264.75,601.69,173,117,17,WH-C-08,SUP-017,Active
+SKU-00019,Advanced Pack Plus,Food & Beverage,218.81,543.68,866,76,18,WH-B-26,SUP-004,Active
+SKU-00020,Advanced System V2,Sports,149.16,220.83,600,128,23,WH-A-40,SUP-001,Active
+SKU-00021,Advanced Device 500,Office Supplies,307.87,619.73,216,101,33,WH-A-16,SUP-047,Active
+SKU-00022,Ultra Pack V2,Electronics,74.05,130.11,339,69,35,WH-A-49,SUP-041,Active
+SKU-00023,Plus Set V2,Sports,149.61,368.62,911,85,43,WH-A-23,SUP-041,Active
+SKU-00024,Elite Gadget 3000,Apparel,186.35,430.57,334,45,21,WH-A-42,SUP-038,Active
+SKU-00025,Elite Tool 500,Sports,230.75,532.11,164,39,20,WH-C-41,SUP-007,Active
+SKU-00026,Basic Module Plus,Automotive,393.66,733.16,85,72,7,WH-B-48,SUP-014,Seasonal
+SKU-00027,Plus Unit 500,Office Supplies,103.84,186.68,726,141,19,WH-B-14,SUP-045,Seasonal
+SKU-00028,Premium Gadget Pro,Electronics,259.55,422.57,373,80,42,WH-A-40,SUP-045,Active
+SKU-00029,Pro Unit Go,Home & Garden,298.25,407.9,770,26,17,WH-D-11,SUP-041,Active
+SKU-00030,Standard Gadget Pro,Food & Beverage,27.99,65.43,125,42,13,WH-C-11,SUP-001,Discontinued
+SKU-00031,Mini Set X2,Apparel,305.73,695.68,943,38,18,WH-A-29,SUP-039,Active
+SKU-00032,Basic Set 500,Automotive,89.41,223.49,265,87,37,WH-D-43,SUP-042,Active
+SKU-00033,Basic Widget V2,Sports,37.2,92.85,798,26,16,WH-D-31,SUP-011,Active
+SKU-00034,Max Tool Plus,Electronics,474.7,933.51,765,42,12,WH-D-02,SUP-023,Active
+SKU-00035,Basic Unit Pro,Electronics,482.99,1073.58,433,66,3,WH-A-20,SUP-020,Discontinued
+SKU-00036,Max Module V2,Health & Beauty,405.16,986.05,920,93,40,WH-C-42,SUP-012,Active
+SKU-00037,Ultra Pack Plus,Home & Garden,155.78,361.34,660,135,32,WH-C-04,SUP-007,Active
+SKU-00038,Max Module X1,Office Supplies,53.35,85.19,755,87,17,WH-D-07,SUP-050,Active
+SKU-00039,Pro Pack 500,Apparel,343.7,632.63,864,125,16,WH-C-47,SUP-048,Seasonal
+SKU-00040,Mini Device Go,Sports,222.88,324.29,176,81,19,WH-C-39,SUP-010,Active
+SKU-00041,Max Pack X2,Home & Garden,65.41,159.92,266,117,14,WH-C-15,SUP-001,Seasonal
+SKU-00042,Max Unit SE,Health & Beauty,250.11,507.08,710,68,43,WH-A-03,SUP-013,Active
+SKU-00043,Basic Kit SE,Apparel,22.02,34.67,213,129,13,WH-B-11,SUP-011,Active
+SKU-00044,Premium Kit X1,Office Supplies,455.11,958.48,264,35,25,WH-C-28,SUP-029,Active
+SKU-00045,Pro Set 3000,Electronics,133.1,271.76,899,142,11,WH-D-25,SUP-039,Active
+SKU-00046,Elite Widget Plus,Electronics,332.95,575.94,964,26,43,WH-D-26,SUP-036,Active
+SKU-00047,Advanced Tool X1,Office Supplies,159.3,228.8,273,25,33,WH-B-50,SUP-001,Active
+SKU-00048,Pro Tool 3000,Home & Garden,262.43,552.65,192,105,13,WH-D-22,SUP-015,Active
+SKU-00049,Elite System V2,Apparel,275.62,530.39,339,88,44,WH-B-18,SUP-030,Active
+SKU-00050,Ultra Kit Air,Home & Garden,96.5,214.88,255,128,12,WH-C-46,SUP-033,Active
+SKU-00051,Standard System V2,Health & Beauty,484.94,933.12,823,60,9,WH-C-21,SUP-039,Active
+SKU-00052,Ultra Widget 500,Sports,388.69,902.78,521,81,36,WH-A-18,SUP-007,Active
+SKU-00053,Plus Pack Air,Office Supplies,470.05,922.37,955,32,8,WH-B-28,SUP-032,Active
+SKU-00054,Standard Set Plus,Office Supplies,447.94,883.84,477,105,34,WH-B-17,SUP-048,Active
+SKU-00055,Basic Device Plus,Health & Beauty,300.96,707.85,67,117,30,WH-A-30,SUP-042,Seasonal
+SKU-00056,Premium Module 3000,Sports,461.33,823.1,629,70,43,WH-D-20,SUP-046,Seasonal
+SKU-00057,Max Kit X1,Electronics,48.8,71.29,348,128,28,WH-C-38,SUP-019,Active
+SKU-00058,Mini Tool V2,Automotive,102.01,136.14,52,32,11,WH-D-03,SUP-034,Discontinued
+SKU-00059,Mini Widget Go,Office Supplies,27.39,60.43,105,56,36,WH-D-23,SUP-021,Active
+SKU-00060,Advanced Device X2,Home & Garden,166.04,339.45,970,111,17,WH-A-17,SUP-027,Discontinued
+SKU-00061,Elite Widget SE,Food & Beverage,197.4,423.4,361,62,13,WH-C-13,SUP-009,Active
+SKU-00062,Plus Set Go,Electronics,139.32,216.72,928,136,5,WH-A-47,SUP-015,Active
+SKU-00063,Pro Unit X1,Health & Beauty,415.23,607.75,688,60,30,WH-B-34,SUP-018,Active
+SKU-00064,Ultra Widget X1,Health & Beauty,181.59,239.24,869,118,20,WH-D-37,SUP-005,Seasonal
+SKU-00065,Ultra Kit Pro,Food & Beverage,144.06,247.88,310,107,17,WH-A-12,SUP-038,Active
+SKU-00066,Basic Gadget Air,Health & Beauty,273.63,549.42,866,22,14,WH-D-43,SUP-043,Active
+SKU-00067,Plus Pack V2,Sports,74.76,132.38,754,40,16,WH-C-41,SUP-036,Seasonal
+SKU-00068,Mini Widget 500,Home & Garden,402.09,733.8,428,128,3,WH-D-06,SUP-014,Active
+SKU-00069,Basic Gadget Air,Office Supplies,41.9,99.93,876,98,20,WH-C-11,SUP-022,Active
+SKU-00070,Plus Unit Go,Office Supplies,493.51,847.8,422,90,41,WH-B-29,SUP-005,Active
+SKU-00071,Max Kit X2,Health & Beauty,387.26,742.3,266,46,11,WH-D-35,SUP-044,Active
+SKU-00072,Advanced Unit X2,Food & Beverage,103.36,231.57,339,23,18,WH-C-16,SUP-013,Active
+SKU-00073,Plus Gadget X2,Home & Garden,7.73,13.73,535,115,27,WH-B-39,SUP-007,Active
+SKU-00074,Premium Tool Go,Apparel,408.65,836.3,947,94,16,WH-A-16,SUP-010,Discontinued
+SKU-00075,Mini System Air,Home & Garden,354.89,828.61,859,138,26,WH-D-42,SUP-044,Active
+SKU-00076,Mini Module SE,Health & Beauty,365.86,892.49,505,57,11,WH-A-07,SUP-048,Discontinued
+SKU-00077,Plus Device X1,Food & Beverage,386.78,571.08,884,52,36,WH-C-20,SUP-003,Active
+SKU-00078,Advanced Pack 3000,Food & Beverage,41.65,100.46,708,65,40,WH-A-50,SUP-001,Active
+SKU-00079,Premium Module 3000,Office Supplies,182.44,344.91,841,105,16,WH-D-50,SUP-042,Active
+SKU-00080,Pro Widget X2,Health & Beauty,62.36,100.39,254,149,21,WH-B-40,SUP-001,Active
+SKU-00081,Ultra Unit Pro,Electronics,432.24,800.06,225,135,28,WH-C-26,SUP-033,Active
+SKU-00082,Max Gadget Air,Automotive,313.53,776.31,584,97,7,WH-C-18,SUP-019,Active
+SKU-00083,Ultra Gadget 500,Home & Garden,168.79,319.21,59,128,15,WH-C-49,SUP-013,Active
+SKU-00084,Mini Pack 500,Electronics,36.46,61.78,245,65,18,WH-B-25,SUP-017,Seasonal
+SKU-00085,Plus Pack X1,Office Supplies,158.94,327.43,750,145,21,WH-C-12,SUP-013,Active
+SKU-00086,Ultra Device X1,Sports,165.97,263.59,700,123,29,WH-A-25,SUP-030,Seasonal
+SKU-00087,Plus Module Plus,Office Supplies,366.16,509.34,116,44,28,WH-A-34,SUP-039,Seasonal
+SKU-00088,Basic Gadget X2,Apparel,320.59,466.35,506,91,38,WH-D-37,SUP-041,Active
+SKU-00089,Pro Widget V2,Automotive,444.17,645.67,530,30,15,WH-A-11,SUP-030,Active
+SKU-00090,Max Module Plus,Sports,238.75,353.9,40,146,28,WH-B-19,SUP-050,Active
+SKU-00091,Premium Unit 500,Health & Beauty,64.2,94.16,204,20,38,WH-D-25,SUP-020,Seasonal
+SKU-00092,Ultra Module Plus,Home & Garden,358.06,740.84,585,146,44,WH-D-03,SUP-031,Active
+SKU-00093,Max Gadget SE,Food & Beverage,381.59,579.35,587,37,29,WH-A-02,SUP-024,Active
+SKU-00094,Basic Pack 500,Office Supplies,282.83,485.0,401,149,15,WH-A-37,SUP-048,Active
+SKU-00095,Basic Pack SE,Automotive,386.63,918.69,525,36,42,WH-A-29,SUP-030,Seasonal
+SKU-00096,Max Gadget V2,Office Supplies,249.43,466.12,610,82,25,WH-C-05,SUP-005,Active
+SKU-00097,Pro Device X2,Apparel,263.75,554.16,718,130,37,WH-B-49,SUP-017,Active
+SKU-00098,Basic Unit Pro,Apparel,216.63,326.41,429,32,32,WH-A-50,SUP-025,Active
+SKU-00099,Standard Pack V2,Apparel,17.58,26.91,485,99,28,WH-D-05,SUP-005,Seasonal
+SKU-00100,Standard Kit Plus,Electronics,58.41,78.8,1,109,7,WH-C-42,SUP-035,Seasonal
+SKU-00101,Standard Widget V2,Home & Garden,20.56,30.9,280,144,19,WH-D-01,SUP-046,Seasonal
+SKU-00102,Premium Pack X2,Home & Garden,320.02,523.01,622,86,22,WH-B-50,SUP-011,Seasonal
+SKU-00103,Basic Pack X1,Electronics,160.61,242.91,288,69,23,WH-D-50,SUP-044,Active
+SKU-00104,Ultra System Plus,Sports,256.74,361.09,471,29,10,WH-D-04,SUP-018,Seasonal
+SKU-00105,Pro Set Go,Apparel,454.25,656.28,851,75,20,WH-B-17,SUP-047,Active
+SKU-00106,Standard Tool Plus,Health & Beauty,128.4,237.92,615,36,5,WH-B-14,SUP-049,Discontinued
+SKU-00107,Advanced Set Go,Sports,208.14,322.12,19,64,17,WH-D-16,SUP-048,Active
+SKU-00108,Ultra Kit 3000,Apparel,379.0,658.37,813,142,23,WH-B-38,SUP-049,Discontinued
+SKU-00109,Premium Module SE,Electronics,118.26,225.18,306,66,12,WH-B-42,SUP-008,Active
+SKU-00110,Max Set Go,Automotive,43.11,91.76,67,128,20,WH-C-42,SUP-034,Active
+SKU-00111,Pro Widget V2,Health & Beauty,148.43,199.96,958,113,8,WH-D-49,SUP-002,Active
+SKU-00112,Advanced Pack Pro,Food & Beverage,84.8,191.59,849,34,4,WH-D-06,SUP-001,Active
+SKU-00113,Max Gadget Pro,Electronics,465.2,955.28,499,75,11,WH-D-48,SUP-012,Seasonal
+SKU-00114,Elite Tool Plus,Office Supplies,405.02,566.26,678,76,34,WH-A-02,SUP-034,Active
+SKU-00115,Plus Widget Air,Sports,318.53,748.0,677,44,6,WH-C-10,SUP-009,Discontinued
+SKU-00116,Mini Set SE,Apparel,436.37,1049.49,83,109,28,WH-C-21,SUP-049,Active
+SKU-00117,Basic Tool X2,Electronics,402.82,553.19,75,52,37,WH-D-33,SUP-018,Active
+SKU-00118,Premium Pack Go,Sports,97.35,158.9,588,69,22,WH-B-47,SUP-010,Active
+SKU-00119,Premium Gadget Pro,Health & Beauty,446.82,1013.14,7,76,11,WH-C-04,SUP-016,Discontinued
+SKU-00120,Premium Module X2,Apparel,271.97,597.77,713,108,35,WH-C-11,SUP-021,Seasonal
+SKU-00121,Premium Widget X2,Health & Beauty,404.68,615.69,821,99,16,WH-D-41,SUP-048,Seasonal
+SKU-00122,Basic Kit X1,Electronics,448.57,695.83,312,44,37,WH-D-21,SUP-002,Active
+SKU-00123,Advanced Set X1,Office Supplies,162.41,283.34,789,28,12,WH-D-48,SUP-012,Active
+SKU-00124,Ultra Unit Go,Automotive,59.48,111.91,888,33,14,WH-D-44,SUP-042,Seasonal
+SKU-00125,Plus Set Air,Office Supplies,117.83,240.6,763,139,13,WH-B-14,SUP-049,Seasonal
+SKU-00126,Mini Pack Plus,Electronics,216.42,377.15,127,55,43,WH-B-46,SUP-013,Active
+SKU-00127,Elite Widget 3000,Food & Beverage,409.92,760.42,379,21,22,WH-D-01,SUP-009,Active
+SKU-00128,Premium Module Air,Electronics,431.06,947.02,63,78,14,WH-D-39,SUP-043,Active
+SKU-00129,Standard Unit Pro,Apparel,8.44,11.34,439,40,38,WH-A-24,SUP-029,Discontinued
+SKU-00130,Elite Pack X2,Food & Beverage,257.82,413.27,817,90,32,WH-B-47,SUP-030,Discontinued
+SKU-00131,Ultra Tool X1,Apparel,211.62,456.26,128,54,21,WH-C-11,SUP-046,Active
+SKU-00132,Elite Module 500,Sports,114.94,272.9,578,89,28,WH-B-34,SUP-050,Active
+SKU-00133,Advanced Set Plus,Apparel,64.33,123.13,491,34,31,WH-D-12,SUP-009,Active
+SKU-00134,Ultra Widget V2,Apparel,172.12,333.66,355,117,13,WH-D-40,SUP-023,Active
+SKU-00135,Premium Device SE,Sports,471.74,673.93,412,58,17,WH-C-42,SUP-023,Seasonal
+SKU-00136,Ultra System Go,Automotive,164.99,303.07,844,114,43,WH-A-38,SUP-022,Active
+SKU-00137,Mini Tool X2,Sports,261.8,507.67,993,37,33,WH-C-35,SUP-008,Active
+SKU-00138,Basic Tool Pro,Sports,352.99,561.59,71,34,16,WH-C-45,SUP-010,Active
+SKU-00139,Mini Module X2,Sports,185.0,300.27,134,92,21,WH-D-23,SUP-026,Discontinued
+SKU-00140,Basic Widget Go,Home & Garden,486.03,851.88,950,116,28,WH-D-08,SUP-046,Active
+SKU-00141,Ultra Pack Pro,Automotive,481.41,637.43,666,27,27,WH-A-16,SUP-013,Seasonal
+SKU-00142,Standard Set V2,Apparel,129.63,218.62,327,96,43,WH-C-19,SUP-029,Active
+SKU-00143,Premium Widget Air,Office Supplies,251.14,390.21,514,95,30,WH-B-25,SUP-046,Active
+SKU-00144,Pro Set SE,Health & Beauty,153.93,260.6,38,105,7,WH-B-22,SUP-028,Active
+SKU-00145,Standard Pack Air,Automotive,146.0,210.78,726,45,26,WH-C-48,SUP-023,Active
+SKU-00146,Max Unit V2,Apparel,23.26,55.09,159,46,34,WH-C-30,SUP-036,Discontinued
+SKU-00147,Max Gadget SE,Home & Garden,306.73,617.24,741,85,43,WH-D-15,SUP-047,Active
+SKU-00148,Standard Unit Plus,Home & Garden,253.83,536.83,575,98,28,WH-B-43,SUP-012,Active
+SKU-00149,Advanced Kit SE,Automotive,30.48,68.49,645,129,22,WH-D-42,SUP-047,Active
+SKU-00150,Standard Tool 500,Office Supplies,142.93,271.3,103,62,11,WH-A-31,SUP-029,Active
+SKU-00151,Basic Module 500,Home & Garden,454.59,638.38,873,110,9,WH-D-14,SUP-017,Active
+SKU-00152,Premium Device V2,Health & Beauty,123.58,240.3,673,65,6,WH-C-19,SUP-004,Active
+SKU-00153,Basic Unit Air,Office Supplies,76.72,153.76,949,26,9,WH-C-22,SUP-043,Active
+SKU-00154,Plus Set Plus,Office Supplies,247.28,542.66,977,139,30,WH-A-14,SUP-028,Active
+SKU-00155,Advanced Tool 3000,Office Supplies,492.9,896.09,990,119,22,WH-C-12,SUP-037,Active
+SKU-00156,Mini Unit 500,Office Supplies,124.82,181.38,856,136,33,WH-C-34,SUP-047,Active
+SKU-00157,Elite Device V2,Automotive,337.71,554.02,335,59,4,WH-B-37,SUP-019,Active
+SKU-00158,Advanced Set Plus,Automotive,382.0,663.04,427,106,12,WH-C-05,SUP-014,Active
+SKU-00159,Ultra Module Air,Office Supplies,122.63,254.47,728,33,39,WH-A-13,SUP-023,Discontinued
+SKU-00160,Premium Unit Go,Sports,365.47,725.43,955,124,5,WH-B-10,SUP-030,Active
+SKU-00161,Basic Set 500,Sports,187.05,323.09,956,34,38,WH-C-23,SUP-037,Seasonal
+SKU-00162,Basic Widget Air,Automotive,317.99,789.83,475,56,31,WH-B-22,SUP-022,Seasonal
+SKU-00163,Ultra Widget SE,Food & Beverage,318.6,645.78,595,21,26,WH-C-28,SUP-049,Active
+SKU-00164,Max Widget X1,Office Supplies,270.21,428.19,686,55,43,WH-A-38,SUP-016,Active
+SKU-00165,Mini System V2,Health & Beauty,49.69,70.67,427,83,22,WH-C-28,SUP-028,Active
+SKU-00166,Plus System V2,Health & Beauty,418.47,620.77,138,55,43,WH-D-11,SUP-012,Active
+SKU-00167,Pro System 3000,Automotive,163.79,261.27,493,145,4,WH-D-46,SUP-017,Active
+SKU-00168,Advanced Widget Plus,Electronics,97.33,145.3,903,83,24,WH-A-39,SUP-029,Active
+SKU-00169,Premium Gadget Go,Electronics,25.18,38.37,832,98,41,WH-A-10,SUP-039,Active
+SKU-00170,Advanced Tool Air,Food & Beverage,297.49,488.51,350,33,24,WH-C-31,SUP-017,Active
+SKU-00171,Basic Tool Air,Electronics,340.39,513.32,150,137,14,WH-C-47,SUP-038,Active
+SKU-00172,Plus Widget SE,Home & Garden,13.21,31.39,400,31,3,WH-A-15,SUP-041,Active
+SKU-00173,Basic Kit Plus,Food & Beverage,258.49,360.92,488,31,17,WH-C-17,SUP-022,Active
+SKU-00174,Advanced Widget X1,Electronics,117.12,225.97,851,109,39,WH-A-36,SUP-034,Discontinued
+SKU-00175,Plus Tool Go,Food & Beverage,324.36,581.41,40,43,29,WH-B-03,SUP-002,Active
+SKU-00176,Premium Tool Plus,Sports,91.31,226.34,139,67,35,WH-D-03,SUP-043,Seasonal
+SKU-00177,Standard Set Go,Sports,347.01,497.77,532,134,11,WH-B-41,SUP-043,Active
+SKU-00178,Mini Tool 500,Office Supplies,196.43,349.14,402,81,26,WH-D-09,SUP-034,Active
+SKU-00179,Premium Device X2,Electronics,468.68,1154.53,24,27,33,WH-B-39,SUP-006,Active
+SKU-00180,Max Device Air,Food & Beverage,73.07,170.88,619,63,24,WH-A-43,SUP-039,Active
+SKU-00181,Ultra Kit X1,Home & Garden,173.83,396.42,53,76,33,WH-C-38,SUP-020,Seasonal
+SKU-00182,Basic System Air,Apparel,61.17,98.45,458,71,44,WH-D-15,SUP-050,Active
+SKU-00183,Plus Device V2,Electronics,462.72,696.42,818,134,25,WH-A-39,SUP-019,Active
+SKU-00184,Standard System X1,Health & Beauty,439.28,923.53,105,26,7,WH-C-16,SUP-029,Seasonal
+SKU-00185,Elite Pack V2,Office Supplies,132.68,320.46,554,43,28,WH-C-35,SUP-023,Active
+SKU-00186,Pro Device Plus,Home & Garden,331.69,652.8,460,98,15,WH-C-27,SUP-032,Active
+SKU-00187,Standard Widget Go,Home & Garden,409.52,813.28,758,48,36,WH-A-30,SUP-025,Active
+SKU-00188,Plus Pack Go,Food & Beverage,279.82,457.78,254,114,34,WH-B-32,SUP-047,Active
+SKU-00189,Advanced Module X2,Office Supplies,267.18,594.05,770,27,23,WH-D-18,SUP-024,Active
+SKU-00190,Elite Set 3000,Sports,124.72,190.13,6,28,43,WH-B-07,SUP-003,Active
+SKU-00191,Max Set X2,Sports,51.09,86.26,889,79,17,WH-D-44,SUP-006,Active
+SKU-00192,Advanced Device SE,Food & Beverage,449.12,813.14,886,82,20,WH-A-48,SUP-035,Active
+SKU-00193,Advanced Set SE,Food & Beverage,450.71,860.47,129,27,28,WH-C-19,SUP-002,Seasonal
+SKU-00194,Ultra Module 3000,Apparel,318.39,506.52,184,43,40,WH-B-47,SUP-048,Active
+SKU-00195,Mini Module Plus,Automotive,172.82,248.48,544,20,25,WH-B-26,SUP-033,Active
+SKU-00196,Elite System 3000,Sports,177.86,361.54,340,33,32,WH-A-11,SUP-019,Discontinued
+SKU-00197,Standard Set Pro,Apparel,364.35,599.85,93,105,14,WH-B-41,SUP-031,Active
+SKU-00198,Advanced Widget X2,Office Supplies,449.07,897.01,830,89,8,WH-B-11,SUP-014,Seasonal
+SKU-00199,Elite Pack 3000,Health & Beauty,444.11,659.61,233,44,38,WH-D-25,SUP-036,Active
+SKU-00200,Standard Unit 3000,Home & Garden,391.04,734.13,621,130,3,WH-A-42,SUP-030,Active
+SKU-00201,Pro Module SE,Health & Beauty,322.81,625.96,180,79,7,WH-A-33,SUP-004,Active
+SKU-00202,Ultra Kit 500,Apparel,46.65,63.55,887,100,35,WH-D-27,SUP-045,Active
+SKU-00203,Advanced System X1,Food & Beverage,85.01,144.85,33,48,38,WH-B-02,SUP-037,Seasonal
+SKU-00204,Advanced Module Air,Electronics,449.78,657.26,2,25,44,WH-A-09,SUP-036,Active
+SKU-00205,Advanced Pack Pro,Automotive,305.18,419.94,303,138,15,WH-D-39,SUP-018,Active
+SKU-00206,Pro System 3000,Apparel,9.55,23.76,622,118,21,WH-B-18,SUP-034,Active
+SKU-00207,Elite Set X2,Electronics,55.23,93.16,600,31,15,WH-C-25,SUP-014,Active
+SKU-00208,Ultra Device Air,Office Supplies,333.43,757.5,675,125,4,WH-D-43,SUP-021,Active
+SKU-00209,Advanced Widget X2,Office Supplies,7.51,12.06,983,45,34,WH-A-05,SUP-036,Active
+SKU-00210,Mini Tool SE,Automotive,84.6,179.17,984,136,36,WH-A-44,SUP-018,Active
+SKU-00211,Ultra Tool Air,Automotive,276.62,611.96,816,149,37,WH-C-13,SUP-006,Active
+SKU-00212,Basic Gadget V2,Apparel,347.49,700.11,120,26,24,WH-A-32,SUP-011,Active
+SKU-00213,Pro Pack Plus,Sports,327.72,611.49,196,115,6,WH-B-33,SUP-036,Seasonal
+SKU-00214,Pro Gadget X2,Electronics,116.01,208.15,691,41,14,WH-C-14,SUP-018,Active
+SKU-00215,Pro Device 500,Automotive,357.53,614.47,981,28,11,WH-A-49,SUP-004,Active
+SKU-00216,Advanced Gadget Go,Electronics,122.44,295.75,365,109,30,WH-C-41,SUP-038,Active
+SKU-00217,Mini System SE,Food & Beverage,166.07,381.42,742,137,29,WH-D-38,SUP-033,Active
+SKU-00218,Basic Pack SE,Electronics,374.51,920.56,604,89,6,WH-B-03,SUP-005,Active
+SKU-00219,Basic Module X1,Office Supplies,326.57,473.25,162,44,17,WH-B-48,SUP-040,Active
+SKU-00220,Basic Gadget Air,Home & Garden,425.37,926.05,823,89,7,WH-B-26,SUP-041,Active
+SKU-00221,Pro Unit X2,Office Supplies,330.52,801.84,956,89,5,WH-B-10,SUP-018,Active
+SKU-00222,Standard Widget X2,Sports,286.31,434.47,430,71,18,WH-A-33,SUP-019,Active
+SKU-00223,Elite Set X2,Home & Garden,51.37,70.88,483,49,19,WH-A-50,SUP-018,Discontinued
+SKU-00224,Plus System Go,Electronics,187.02,409.45,699,66,22,WH-B-34,SUP-020,Seasonal
+SKU-00225,Ultra System Pro,Automotive,136.28,271.11,762,122,19,WH-D-29,SUP-031,Active
+SKU-00226,Basic Kit X1,Health & Beauty,125.77,290.55,986,149,13,WH-C-20,SUP-010,Discontinued
+SKU-00227,Premium Device Air,Apparel,486.64,714.25,584,26,20,WH-A-17,SUP-009,Active
+SKU-00228,Mini Device SE,Sports,199.58,449.92,81,115,9,WH-D-02,SUP-044,Active
+SKU-00229,Advanced System V2,Automotive,446.56,688.57,881,108,15,WH-D-22,SUP-050,Active
+SKU-00230,Plus Module X1,Food & Beverage,317.41,474.97,107,131,42,WH-D-07,SUP-011,Seasonal
+SKU-00231,Advanced Set V2,Automotive,398.43,596.5,425,73,4,WH-B-25,SUP-040,Active
+SKU-00232,Ultra Widget X1,Home & Garden,253.81,578.05,739,137,4,WH-D-20,SUP-025,Active
+SKU-00233,Standard Unit SE,Home & Garden,290.57,609.68,953,130,43,WH-B-13,SUP-047,Discontinued
+SKU-00234,Advanced Set X2,Office Supplies,248.8,479.61,951,107,34,WH-D-32,SUP-017,Active
+SKU-00235,Plus Tool Plus,Apparel,101.65,175.92,837,98,29,WH-C-48,SUP-036,Active
+SKU-00236,Mini Kit Air,Health & Beauty,362.61,853.09,941,100,23,WH-A-11,SUP-033,Active
+SKU-00237,Max Device V2,Electronics,143.98,254.98,528,74,40,WH-A-27,SUP-036,Seasonal
+SKU-00238,Mini Unit 500,Automotive,17.04,38.85,836,148,32,WH-B-20,SUP-013,Seasonal
+SKU-00239,Mini Gadget V2,Food & Beverage,324.51,592.87,191,53,13,WH-A-20,SUP-042,Seasonal
+SKU-00240,Standard Widget Air,Apparel,92.67,162.39,266,133,21,WH-D-42,SUP-001,Discontinued
+SKU-00241,Premium Set X2,Automotive,470.53,872.93,874,101,12,WH-B-47,SUP-005,Active
+SKU-00242,Plus Gadget 500,Automotive,477.19,792.92,541,100,14,WH-D-36,SUP-041,Discontinued
+SKU-00243,Ultra Tool Go,Home & Garden,457.86,1005.98,652,56,6,WH-B-23,SUP-014,Active
+SKU-00244,Premium Module Plus,Home & Garden,188.23,358.25,387,47,18,WH-D-06,SUP-037,Seasonal
+SKU-00245,Max Tool X2,Health & Beauty,12.65,19.97,946,102,7,WH-C-03,SUP-013,Active
+SKU-00246,Plus Unit X2,Sports,464.52,1105.32,893,62,7,WH-D-27,SUP-021,Active
+SKU-00247,Mini Module Pro,Health & Beauty,216.95,381.98,142,39,34,WH-B-31,SUP-050,Active
+SKU-00248,Premium Module Go,Automotive,483.49,943.9,760,68,5,WH-A-20,SUP-043,Seasonal
+SKU-00249,Plus Unit V2,Sports,481.99,1150.88,953,27,30,WH-D-26,SUP-001,Discontinued
+SKU-00250,Standard Unit Plus,Sports,427.24,875.45,819,115,15,WH-C-33,SUP-015,Active
+SKU-00251,Elite Kit V2,Sports,150.75,217.12,640,54,34,WH-A-11,SUP-009,Active
+SKU-00252,Pro Module 3000,Apparel,195.62,474.93,354,77,12,WH-A-13,SUP-029,Active
+SKU-00253,Mini Kit 500,Food & Beverage,426.31,875.32,674,121,16,WH-A-46,SUP-050,Seasonal
+SKU-00254,Elite Device Plus,Automotive,161.88,275.5,613,146,10,WH-D-48,SUP-023,Seasonal
+SKU-00255,Premium Pack Pro,Office Supplies,88.9,130.43,997,117,19,WH-A-39,SUP-013,Active
+SKU-00256,Elite System Pro,Apparel,280.62,632.19,735,117,3,WH-D-50,SUP-048,Active
+SKU-00257,Advanced Gadget V2,Apparel,468.4,957.45,16,91,37,WH-B-43,SUP-021,Active
+SKU-00258,Standard Gadget 500,Automotive,349.53,678.14,292,58,3,WH-D-02,SUP-004,Active
+SKU-00259,Max Set 3000,Automotive,287.18,681.38,660,114,6,WH-C-07,SUP-033,Active
+SKU-00260,Plus Gadget X2,Office Supplies,53.1,119.28,462,105,38,WH-D-20,SUP-010,Active
+SKU-00261,Pro Set X1,Office Supplies,309.43,458.58,62,75,42,WH-B-09,SUP-002,Active
+SKU-00262,Standard Unit SE,Sports,495.08,828.8,20,22,31,WH-A-06,SUP-011,Active
+SKU-00263,Standard Tool X1,Office Supplies,74.34,118.81,425,43,21,WH-A-32,SUP-005,Active
+SKU-00264,Advanced System Air,Office Supplies,261.57,573.55,656,101,13,WH-B-34,SUP-020,Active
+SKU-00265,Advanced Pack V2,Electronics,439.3,588.77,334,118,22,WH-D-03,SUP-003,Seasonal
+SKU-00266,Elite Kit 3000,Food & Beverage,371.68,737.36,809,99,30,WH-B-50,SUP-040,Active
+SKU-00267,Standard System V2,Home & Garden,350.02,775.28,669,39,36,WH-D-50,SUP-045,Seasonal
+SKU-00268,Premium Set Air,Office Supplies,352.73,829.66,184,93,31,WH-D-21,SUP-044,Discontinued
+SKU-00269,Ultra Kit Plus,Health & Beauty,182.95,312.94,295,86,14,WH-A-18,SUP-027,Active
+SKU-00270,Advanced Widget 3000,Home & Garden,150.33,343.58,298,130,18,WH-A-47,SUP-042,Active
+SKU-00271,Standard Device Air,Health & Beauty,405.63,581.17,890,147,31,WH-C-29,SUP-023,Active
+SKU-00272,Max Pack V2,Electronics,406.01,940.21,565,111,17,WH-A-44,SUP-034,Active
+SKU-00273,Max Unit Go,Sports,434.2,630.89,945,71,13,WH-C-27,SUP-018,Active
+SKU-00274,Max Pack Plus,Sports,457.05,812.06,170,78,13,WH-D-09,SUP-047,Active
+SKU-00275,Pro Tool Pro,Office Supplies,258.11,582.49,239,30,25,WH-C-15,SUP-022,Active
+SKU-00276,Mini Gadget 500,Home & Garden,253.25,374.78,934,35,33,WH-C-41,SUP-028,Discontinued
+SKU-00277,Elite Tool X1,Apparel,400.16,630.29,249,32,37,WH-C-05,SUP-019,Active
+SKU-00278,Mini Set Plus,Apparel,326.73,707.93,412,30,39,WH-B-02,SUP-042,Active
+SKU-00279,Basic Pack Pro,Electronics,352.47,762.76,473,120,31,WH-B-10,SUP-022,Active
+SKU-00280,Pro Widget Plus,Sports,398.92,825.52,683,96,19,WH-D-10,SUP-023,Active
+SKU-00281,Ultra Set 500,Home & Garden,445.55,950.24,714,31,42,WH-C-44,SUP-006,Seasonal
+SKU-00282,Plus Unit Air,Food & Beverage,172.31,336.22,441,104,36,WH-A-17,SUP-001,Active
+SKU-00283,Standard Device SE,Electronics,190.91,305.87,326,88,28,WH-A-05,SUP-044,Seasonal
+SKU-00284,Basic Module Go,Office Supplies,51.52,88.35,477,71,36,WH-B-40,SUP-016,Seasonal
+SKU-00285,Ultra Set 500,Apparel,291.25,442.09,31,97,13,WH-C-35,SUP-048,Discontinued
+SKU-00286,Basic Tool Air,Food & Beverage,22.79,54.47,483,26,43,WH-B-48,SUP-035,Active
+SKU-00287,Basic Module Plus,Health & Beauty,235.47,470.96,643,97,28,WH-A-09,SUP-004,Active
+SKU-00288,Premium Pack Go,Health & Beauty,273.61,487.31,581,58,29,WH-B-35,SUP-030,Discontinued
+SKU-00289,Pro Set V2,Electronics,146.84,272.3,326,48,3,WH-A-29,SUP-043,Active
+SKU-00290,Premium Device 3000,Office Supplies,297.46,724.83,238,59,36,WH-C-43,SUP-013,Seasonal
+SKU-00291,Ultra Set 500,Sports,20.1,29.83,446,85,34,WH-C-05,SUP-029,Discontinued
+SKU-00292,Mini Device V2,Sports,23.49,47.06,62,97,9,WH-C-39,SUP-001,Active
+SKU-00293,Max Module Go,Sports,412.19,786.07,104,149,3,WH-A-23,SUP-011,Active
+SKU-00294,Ultra Tool SE,Food & Beverage,183.29,372.77,885,47,38,WH-D-40,SUP-019,Discontinued
+SKU-00295,Elite Gadget Pro,Health & Beauty,67.89,89.73,886,86,13,WH-D-18,SUP-031,Active
+SKU-00296,Premium Pack 3000,Home & Garden,263.51,618.34,247,117,3,WH-A-29,SUP-012,Discontinued
+SKU-00297,Standard Device SE,Electronics,386.15,933.92,50,117,44,WH-B-25,SUP-032,Active
+SKU-00298,Pro Tool X1,Automotive,111.83,221.22,862,36,12,WH-A-08,SUP-037,Active
+SKU-00299,Max Unit Go,Electronics,313.33,669.27,733,23,37,WH-D-30,SUP-017,Discontinued
+SKU-00300,Max Device Air,Food & Beverage,47.25,113.73,907,32,38,WH-D-48,SUP-035,Active
+SKU-00301,Pro Unit V2,Home & Garden,30.58,65.71,419,24,15,WH-D-20,SUP-023,Active
+SKU-00302,Pro Device 500,Electronics,268.02,397.49,644,97,9,WH-A-41,SUP-047,Seasonal
+SKU-00303,Max Set SE,Food & Beverage,272.61,542.92,208,28,17,WH-C-37,SUP-039,Active
+SKU-00304,Standard Unit X1,Sports,320.53,650.05,160,83,34,WH-D-32,SUP-022,Seasonal
+SKU-00305,Plus Gadget 3000,Food & Beverage,364.42,659.22,880,147,14,WH-C-07,SUP-027,Active
+SKU-00306,Premium Unit Pro,Electronics,488.05,1065.77,339,36,27,WH-C-28,SUP-030,Active
+SKU-00307,Premium Device 3000,Health & Beauty,260.57,630.9,614,79,15,WH-C-43,SUP-025,Active
+SKU-00308,Basic Unit V2,Electronics,164.86,397.43,924,131,5,WH-C-47,SUP-029,Active
+SKU-00309,Standard Device Go,Apparel,398.62,733.86,71,82,11,WH-A-24,SUP-027,Active
+SKU-00310,Advanced System V2,Automotive,139.06,199.67,499,144,31,WH-D-46,SUP-033,Active
+SKU-00311,Elite Pack Go,Food & Beverage,222.29,551.68,374,64,18,WH-A-27,SUP-029,Discontinued
+SKU-00312,Standard Gadget 3000,Office Supplies,43.84,101.12,197,27,39,WH-D-09,SUP-013,Active
+SKU-00313,Basic Kit V2,Apparel,17.55,25.44,123,20,7,WH-A-22,SUP-012,Active
+SKU-00314,Ultra Widget 3000,Electronics,481.51,1158.04,170,67,12,WH-D-24,SUP-010,Discontinued
+SKU-00315,Advanced Set SE,Food & Beverage,418.81,981.64,16,27,7,WH-C-29,SUP-049,Active
+SKU-00316,Max Unit X2,Automotive,349.51,671.97,37,23,15,WH-C-25,SUP-017,Active
+SKU-00317,Max Pack Go,Sports,207.43,416.84,973,130,38,WH-A-18,SUP-019,Active
+SKU-00318,Standard Widget Air,Automotive,90.78,161.48,551,81,28,WH-D-43,SUP-031,Active
+SKU-00319,Advanced Gadget X2,Apparel,82.44,112.59,753,66,36,WH-D-40,SUP-035,Active
+SKU-00320,Premium Device Go,Office Supplies,128.87,219.37,683,56,42,WH-B-27,SUP-033,Seasonal
+SKU-00321,Advanced Widget SE,Health & Beauty,276.87,626.67,858,28,34,WH-A-20,SUP-019,Active
+SKU-00322,Advanced Kit Plus,Apparel,358.72,468.33,539,61,16,WH-A-42,SUP-018,Seasonal
+SKU-00323,Pro Set SE,Home & Garden,331.8,564.13,197,97,28,WH-C-47,SUP-028,Active
+SKU-00324,Mini Pack SE,Sports,143.57,255.24,645,139,28,WH-A-34,SUP-037,Active
+SKU-00325,Elite Unit Go,Health & Beauty,477.66,928.99,791,25,5,WH-B-43,SUP-026,Active
+SKU-00326,Ultra Kit V2,Electronics,370.26,890.04,6,103,40,WH-D-03,SUP-032,Seasonal
+SKU-00327,Plus Pack 3000,Electronics,279.41,479.36,188,40,8,WH-A-04,SUP-015,Active
+SKU-00328,Ultra System Go,Sports,307.8,528.29,2,113,6,WH-B-25,SUP-002,Active
+SKU-00329,Advanced Kit 500,Food & Beverage,212.7,464.75,695,78,39,WH-A-10,SUP-043,Active
+SKU-00330,Mini Widget X1,Office Supplies,127.63,235.18,384,20,38,WH-A-12,SUP-041,Active
+SKU-00331,Standard Set X2,Health & Beauty,181.21,284.41,648,50,17,WH-C-38,SUP-048,Active
+SKU-00332,Advanced Widget SE,Automotive,380.13,700.55,127,48,6,WH-A-40,SUP-035,Discontinued
+SKU-00333,Mini Module SE,Home & Garden,12.12,17.8,239,94,22,WH-D-50,SUP-012,Active
+SKU-00334,Elite Gadget V2,Electronics,62.46,94.42,835,130,3,WH-D-04,SUP-004,Active
+SKU-00335,Basic Unit 500,Office Supplies,27.77,52.71,861,141,5,WH-C-06,SUP-014,Active
+SKU-00336,Plus Set SE,Office Supplies,25.16,45.36,555,41,7,WH-A-07,SUP-043,Seasonal
+SKU-00337,Standard Module Go,Office Supplies,428.45,1027.34,571,36,10,WH-D-09,SUP-046,Discontinued
+SKU-00338,Plus Kit 3000,Food & Beverage,353.31,612.95,461,79,17,WH-D-42,SUP-007,Active
+SKU-00339,Basic Set Air,Sports,239.72,478.65,654,99,33,WH-B-35,SUP-013,Discontinued
+SKU-00340,Premium Device Plus,Food & Beverage,53.43,110.0,597,75,14,WH-A-40,SUP-045,Seasonal
+SKU-00341,Advanced Set Pro,Electronics,248.35,326.76,761,90,10,WH-C-08,SUP-003,Active
+SKU-00342,Plus System Go,Food & Beverage,239.37,501.78,870,103,28,WH-A-48,SUP-027,Active
+SKU-00343,Elite Kit V2,Automotive,90.73,137.33,480,127,28,WH-A-12,SUP-019,Active
+SKU-00344,Ultra Tool Pro,Electronics,219.76,539.13,269,91,6,WH-A-20,SUP-044,Active
+SKU-00345,Max Gadget 3000,Food & Beverage,202.26,299.02,23,119,4,WH-A-07,SUP-016,Active
+SKU-00346,Advanced Kit Plus,Sports,309.85,556.97,597,80,10,WH-C-45,SUP-019,Active
+SKU-00347,Advanced Unit X1,Home & Garden,319.37,447.89,613,72,8,WH-D-29,SUP-009,Seasonal
+SKU-00348,Max Kit X1,Office Supplies,27.43,68.47,551,50,32,WH-A-16,SUP-032,Active
+SKU-00349,Ultra Device Pro,Automotive,190.43,362.32,825,112,21,WH-D-40,SUP-009,Active
+SKU-00350,Standard Kit X2,Home & Garden,314.8,634.15,189,109,8,WH-D-34,SUP-046,Active
+SKU-00351,Ultra System 3000,Apparel,254.05,350.71,163,141,44,WH-C-37,SUP-043,Active
+SKU-00352,Elite Gadget Go,Automotive,428.96,943.69,817,137,27,WH-B-12,SUP-011,Active
+SKU-00353,Pro Kit SE,Sports,331.05,513.75,597,42,13,WH-B-06,SUP-044,Active
+SKU-00354,Standard Set 500,Automotive,85.65,203.65,911,146,24,WH-B-04,SUP-015,Seasonal
+SKU-00355,Standard Widget V2,Sports,39.93,61.74,730,115,12,WH-A-03,SUP-023,Seasonal
+SKU-00356,Premium Pack X1,Home & Garden,323.0,493.81,890,116,27,WH-D-50,SUP-041,Discontinued
+SKU-00357,Mini Set 500,Automotive,18.12,24.35,173,123,30,WH-C-41,SUP-022,Active
+SKU-00358,Mini Widget Go,Food & Beverage,294.96,550.54,357,24,22,WH-D-32,SUP-047,Active
+SKU-00359,Advanced Set 3000,Office Supplies,470.41,930.38,793,131,32,WH-C-33,SUP-027,Active
+SKU-00360,Standard Device X1,Health & Beauty,289.86,399.67,403,52,31,WH-D-35,SUP-048,Active
+SKU-00361,Elite Tool X1,Home & Garden,197.14,439.75,306,130,21,WH-C-09,SUP-048,Active
+SKU-00362,Max Gadget 500,Sports,323.43,596.39,850,149,27,WH-A-16,SUP-019,Seasonal
+SKU-00363,Basic Module SE,Home & Garden,231.84,447.28,881,48,24,WH-A-39,SUP-026,Seasonal
+SKU-00364,Basic Unit 3000,Sports,275.08,503.1,521,120,21,WH-D-43,SUP-002,Active
+SKU-00365,Advanced Widget X2,Home & Garden,471.03,838.86,136,38,7,WH-A-12,SUP-021,Active
+SKU-00366,Ultra Set 500,Food & Beverage,196.12,386.66,537,28,17,WH-A-26,SUP-008,Active
+SKU-00367,Advanced Unit Plus,Home & Garden,480.79,714.59,60,46,34,WH-B-37,SUP-049,Active
+SKU-00368,Elite System 3000,Automotive,453.15,688.02,280,119,6,WH-D-26,SUP-004,Active
+SKU-00369,Standard Tool Pro,Home & Garden,101.92,237.9,736,127,9,WH-A-25,SUP-033,Active
+SKU-00370,Basic Unit X1,Home & Garden,39.33,95.78,28,136,40,WH-B-14,SUP-019,Active
+SKU-00371,Plus Device SE,Office Supplies,54.89,95.95,99,74,26,WH-B-20,SUP-021,Active
+SKU-00372,Advanced Gadget Air,Apparel,14.02,22.78,157,78,32,WH-C-05,SUP-016,Active
+SKU-00373,Ultra Set 500,Apparel,51.75,107.27,629,80,38,WH-B-21,SUP-030,Active
+SKU-00374,Elite Gadget Air,Home & Garden,343.09,614.3,737,35,31,WH-C-14,SUP-027,Discontinued
+SKU-00375,Plus Set Go,Office Supplies,40.24,53.54,606,36,23,WH-C-27,SUP-022,Seasonal
+SKU-00376,Plus Pack SE,Home & Garden,162.89,242.28,772,121,7,WH-B-13,SUP-023,Discontinued
+SKU-00377,Standard Pack 3000,Electronics,423.21,913.78,66,149,29,WH-A-04,SUP-016,Active
+SKU-00378,Elite Pack Pro,Office Supplies,16.52,34.54,678,126,10,WH-B-08,SUP-040,Seasonal
+SKU-00379,Standard Widget Pro,Automotive,408.16,543.88,425,134,13,WH-B-16,SUP-012,Active
+SKU-00380,Ultra System X2,Automotive,144.52,226.37,198,74,29,WH-B-27,SUP-031,Seasonal
+SKU-00381,Basic Tool 3000,Food & Beverage,63.49,100.14,207,87,11,WH-B-24,SUP-024,Discontinued
+SKU-00382,Elite Kit Plus,Health & Beauty,349.88,736.94,992,119,11,WH-D-34,SUP-015,Active
+SKU-00383,Advanced Set X1,Food & Beverage,316.33,418.71,904,31,19,WH-C-29,SUP-041,Active
+SKU-00384,Plus Tool 500,Home & Garden,439.35,626.04,219,29,27,WH-D-11,SUP-032,Active
+SKU-00385,Ultra Kit Plus,Sports,368.86,833.59,360,141,15,WH-C-37,SUP-023,Active
+SKU-00386,Ultra Set V2,Apparel,402.72,609.82,373,75,38,WH-A-35,SUP-044,Active
+SKU-00387,Premium Module Plus,Home & Garden,144.61,301.27,515,51,21,WH-A-09,SUP-045,Active
+SKU-00388,Mini Unit 500,Home & Garden,92.83,147.21,301,142,34,WH-A-05,SUP-005,Active
+SKU-00389,Max Tool Pro,Electronics,376.55,534.45,776,57,19,WH-D-01,SUP-022,Active
+SKU-00390,Mini Tool 3000,Food & Beverage,404.38,643.69,66,62,16,WH-A-35,SUP-018,Active
+SKU-00391,Plus Tool 3000,Sports,495.3,1073.18,136,37,40,WH-B-47,SUP-026,Active
+SKU-00392,Mini Tool Go,Sports,209.25,486.89,852,56,6,WH-B-45,SUP-013,Active
+SKU-00393,Elite Device X2,Sports,189.15,434.34,230,65,24,WH-D-25,SUP-047,Active
+SKU-00394,Ultra Gadget Pro,Electronics,389.32,691.67,801,85,3,WH-A-08,SUP-035,Seasonal
+SKU-00395,Standard Widget Air,Office Supplies,173.7,365.07,133,141,7,WH-A-21,SUP-043,Active
+SKU-00396,Pro Pack Plus,Apparel,465.72,719.99,424,39,7,WH-A-20,SUP-002,Discontinued
+SKU-00397,Standard Module Pro,Health & Beauty,429.91,710.12,128,138,40,WH-A-27,SUP-013,Discontinued
+SKU-00398,Standard System Pro,Home & Garden,217.35,516.34,919,37,4,WH-A-03,SUP-048,Active
+SKU-00399,Max Set 500,Health & Beauty,376.68,495.56,61,105,12,WH-B-28,SUP-030,Active
+SKU-00400,Basic Tool Go,Office Supplies,378.5,530.89,636,98,27,WH-B-06,SUP-013,Active
+SKU-00401,Max Widget Air,Home & Garden,56.05,86.85,622,130,42,WH-B-05,SUP-043,Active
+SKU-00402,Basic Pack Air,Automotive,451.76,601.67,478,112,36,WH-A-20,SUP-016,Active
+SKU-00403,Pro Set Plus,Health & Beauty,255.1,387.17,837,94,33,WH-C-47,SUP-009,Seasonal
+SKU-00404,Basic Device Pro,Health & Beauty,414.1,828.06,908,81,29,WH-B-02,SUP-047,Active
+SKU-00405,Ultra Set Pro,Home & Garden,163.42,295.09,392,104,36,WH-C-42,SUP-036,Active
+SKU-00406,Elite Widget X1,Home & Garden,448.28,1062.96,177,59,6,WH-B-07,SUP-034,Active
+SKU-00407,Mini Kit Go,Sports,197.65,450.83,294,88,21,WH-A-03,SUP-002,Active
+SKU-00408,Ultra Module Plus,Sports,10.36,17.72,579,128,43,WH-B-46,SUP-001,Discontinued
+SKU-00409,Standard System V2,Electronics,453.16,730.18,718,109,21,WH-C-18,SUP-015,Active
+SKU-00410,Advanced System 3000,Automotive,50.19,88.12,410,147,18,WH-C-16,SUP-015,Active
+SKU-00411,Plus Pack Go,Electronics,163.06,327.48,844,97,19,WH-D-16,SUP-049,Active
+SKU-00412,Elite Module V2,Food & Beverage,475.28,770.75,105,64,9,WH-B-27,SUP-011,Active
+SKU-00413,Premium Kit 3000,Automotive,475.55,974.39,743,23,24,WH-B-24,SUP-031,Active
+SKU-00414,Basic Module Plus,Sports,288.85,517.42,571,62,10,WH-B-48,SUP-043,Active
+SKU-00415,Basic System Pro,Sports,317.76,623.59,161,148,5,WH-D-30,SUP-018,Active
+SKU-00416,Max Unit V2,Sports,226.98,413.86,101,137,35,WH-A-20,SUP-047,Active
+SKU-00417,Standard Tool X2,Apparel,150.14,248.24,311,99,42,WH-B-42,SUP-009,Active
+SKU-00418,Plus Tool Air,Home & Garden,167.69,408.85,279,107,25,WH-D-27,SUP-007,Active
+SKU-00419,Basic Kit 3000,Health & Beauty,337.9,748.9,189,123,18,WH-A-15,SUP-036,Active
+SKU-00420,Max Device Pro,Health & Beauty,377.43,554.12,708,80,13,WH-D-25,SUP-002,Active
+SKU-00421,Pro Device SE,Office Supplies,396.83,929.44,270,24,28,WH-B-48,SUP-002,Discontinued
+SKU-00422,Premium Device Air,Health & Beauty,395.86,746.16,991,137,36,WH-B-23,SUP-039,Active
+SKU-00423,Advanced Module Pro,Sports,50.15,119.03,404,60,15,WH-D-13,SUP-003,Active
+SKU-00424,Plus System Air,Automotive,249.74,564.37,238,144,4,WH-C-13,SUP-049,Active
+SKU-00425,Standard Widget SE,Automotive,33.49,60.63,677,76,7,WH-C-17,SUP-034,Active
+SKU-00426,Ultra Device X1,Electronics,277.02,367.6,999,37,31,WH-A-13,SUP-002,Active
+SKU-00427,Mini System Pro,Automotive,223.56,362.71,132,108,6,WH-C-16,SUP-018,Active
+SKU-00428,Ultra Pack Plus,Office Supplies,444.41,866.58,935,97,17,WH-C-01,SUP-013,Active
+SKU-00429,Plus Module Plus,Automotive,178.7,368.15,257,42,36,WH-C-07,SUP-021,Active
+SKU-00430,Advanced Set 500,Electronics,62.95,101.32,213,36,15,WH-C-25,SUP-006,Active
+SKU-00431,Elite Widget SE,Apparel,75.78,111.19,364,99,18,WH-D-24,SUP-026,Active
+SKU-00432,Ultra Module Go,Health & Beauty,381.95,879.22,661,23,14,WH-B-29,SUP-039,Active
+SKU-00433,Mini Unit Go,Health & Beauty,311.02,771.73,103,20,36,WH-A-12,SUP-022,Active
+SKU-00434,Advanced Device 500,Electronics,55.06,106.31,629,127,6,WH-D-35,SUP-009,Active
+SKU-00435,Elite Module Air,Sports,46.63,70.23,668,60,11,WH-D-10,SUP-042,Active
+SKU-00436,Premium Pack X2,Automotive,351.98,572.59,858,124,32,WH-C-43,SUP-009,Active
+SKU-00437,Basic Unit 500,Electronics,41.02,54.23,668,53,18,WH-B-22,SUP-031,Active
+SKU-00438,Premium Device V2,Automotive,411.82,987.2,153,128,38,WH-C-44,SUP-030,Seasonal
+SKU-00439,Elite Kit Go,Electronics,354.59,511.07,156,63,39,WH-C-05,SUP-036,Active
+SKU-00440,Standard Kit X2,Sports,45.27,90.17,836,23,4,WH-B-39,SUP-037,Active
+SKU-00441,Ultra Device Plus,Food & Beverage,46.99,76.54,542,73,35,WH-B-22,SUP-033,Active
+SKU-00442,Mini Module Plus,Health & Beauty,493.39,969.52,187,102,5,WH-D-14,SUP-035,Active
+SKU-00443,Plus System Go,Automotive,190.26,396.07,538,103,18,WH-A-38,SUP-045,Active
+SKU-00444,Basic System Pro,Food & Beverage,188.47,432.67,819,112,13,WH-A-28,SUP-002,Active
+SKU-00445,Elite Unit Air,Food & Beverage,407.34,630.44,1,37,15,WH-B-47,SUP-003,Active
+SKU-00446,Premium Kit V2,Health & Beauty,473.89,622.31,38,138,21,WH-C-33,SUP-033,Seasonal
+SKU-00447,Max Widget V2,Home & Garden,493.07,721.98,243,121,20,WH-A-14,SUP-023,Active
+SKU-00448,Mini System X2,Automotive,377.92,899.46,376,42,44,WH-C-47,SUP-044,Active
+SKU-00449,Mini Device SE,Food & Beverage,191.25,449.18,181,91,38,WH-C-21,SUP-039,Active
+SKU-00450,Ultra Gadget X2,Electronics,46.33,93.44,62,83,33,WH-A-26,SUP-003,Discontinued
+SKU-00451,Premium Set X1,Home & Garden,389.69,787.42,879,62,28,WH-D-07,SUP-038,Active
+SKU-00452,Pro Kit Air,Health & Beauty,281.41,590.41,742,46,29,WH-A-37,SUP-038,Discontinued
+SKU-00453,Ultra Gadget 500,Health & Beauty,214.99,324.73,777,40,17,WH-A-11,SUP-015,Active
+SKU-00454,Standard Device X2,Apparel,453.65,1087.53,113,136,10,WH-A-06,SUP-049,Active
+SKU-00455,Basic System 3000,Apparel,60.04,108.22,86,79,22,WH-A-28,SUP-012,Active
+SKU-00456,Mini System Pro,Home & Garden,248.85,437.92,185,63,23,WH-A-37,SUP-009,Active
+SKU-00457,Max Device Air,Home & Garden,10.62,20.42,461,75,18,WH-C-20,SUP-016,Active
+SKU-00458,Max Widget X1,Automotive,236.99,321.44,632,109,23,WH-D-13,SUP-033,Discontinued
+SKU-00459,Elite Module Pro,Automotive,32.87,49.29,902,102,9,WH-D-14,SUP-042,Active
+SKU-00460,Premium Set 500,Office Supplies,63.81,139.47,519,35,38,WH-D-13,SUP-016,Active
+SKU-00461,Advanced Pack V2,Health & Beauty,63.18,88.41,424,64,22,WH-D-02,SUP-004,Discontinued
+SKU-00462,Advanced Device Go,Electronics,326.36,660.48,508,53,33,WH-C-05,SUP-027,Active
+SKU-00463,Standard Pack Go,Home & Garden,374.29,596.78,574,123,33,WH-A-14,SUP-045,Active
+SKU-00464,Basic Set Air,Health & Beauty,293.77,519.14,534,63,15,WH-B-28,SUP-037,Seasonal
+SKU-00465,Plus Module Pro,Sports,481.28,792.4,11,118,8,WH-B-19,SUP-050,Seasonal
+SKU-00466,Advanced Tool X2,Health & Beauty,190.56,329.06,767,123,33,WH-C-40,SUP-021,Discontinued
+SKU-00467,Premium System Plus,Apparel,146.43,316.71,696,87,14,WH-D-39,SUP-024,Active
+SKU-00468,Basic System V2,Food & Beverage,434.96,720.53,179,72,40,WH-A-22,SUP-049,Discontinued
+SKU-00469,Plus Widget X1,Office Supplies,115.68,229.01,374,22,33,WH-A-17,SUP-016,Seasonal
+SKU-00470,Advanced Device Plus,Home & Garden,481.8,901.57,573,111,32,WH-C-47,SUP-047,Active
+SKU-00471,Plus Pack Air,Apparel,11.02,23.1,928,22,39,WH-C-43,SUP-007,Active
+SKU-00472,Pro Pack Pro,Apparel,485.09,1175.95,328,120,33,WH-C-12,SUP-029,Seasonal
+SKU-00473,Plus Widget SE,Apparel,26.36,57.44,35,149,29,WH-D-13,SUP-005,Active
+SKU-00474,Plus Unit 3000,Health & Beauty,446.12,695.02,22,88,38,WH-C-40,SUP-018,Active
+SKU-00475,Pro Set Plus,Office Supplies,266.21,356.03,851,133,17,WH-D-06,SUP-039,Active
+SKU-00476,Mini Kit Air,Apparel,496.52,801.74,477,60,13,WH-C-37,SUP-031,Active
+SKU-00477,Basic Kit 3000,Automotive,41.53,83.65,980,22,24,WH-B-32,SUP-050,Seasonal
+SKU-00478,Max Kit SE,Home & Garden,279.16,380.14,752,149,16,WH-D-32,SUP-026,Active
+SKU-00479,Mini System X2,Automotive,484.8,919.01,771,44,42,WH-C-38,SUP-025,Active
+SKU-00480,Basic Tool Air,Automotive,263.93,532.14,359,20,20,WH-C-05,SUP-038,Active
+SKU-00481,Standard System 500,Electronics,316.55,538.48,672,50,10,WH-C-39,SUP-002,Active
+SKU-00482,Advanced System SE,Home & Garden,349.4,777.45,56,121,32,WH-A-13,SUP-013,Active
+SKU-00483,Mini Gadget V2,Office Supplies,230.0,328.42,178,36,37,WH-B-01,SUP-001,Active
+SKU-00484,Max System X2,Home & Garden,315.64,438.79,338,146,26,WH-C-39,SUP-017,Active
+SKU-00485,Premium Unit Pro,Home & Garden,294.24,639.63,340,109,31,WH-C-15,SUP-008,Active
+SKU-00486,Plus Unit Pro,Home & Garden,451.07,854.59,186,125,18,WH-D-09,SUP-005,Active
+SKU-00487,Mini Module X1,Home & Garden,27.5,58.47,841,106,23,WH-A-48,SUP-050,Seasonal
+SKU-00488,Max Widget Air,Electronics,144.08,262.48,683,81,33,WH-C-07,SUP-009,Active
+SKU-00489,Pro Device X2,Automotive,475.45,758.67,252,46,18,WH-A-49,SUP-010,Active
+SKU-00490,Plus System V2,Food & Beverage,445.68,1017.45,895,106,9,WH-D-17,SUP-028,Discontinued
+SKU-00491,Premium Widget 3000,Food & Beverage,230.55,520.88,387,101,6,WH-C-48,SUP-050,Active
+SKU-00492,Ultra Device X1,Health & Beauty,311.97,665.63,408,55,25,WH-A-19,SUP-016,Active
+SKU-00493,Premium Tool Plus,Food & Beverage,142.3,231.46,201,81,32,WH-A-08,SUP-028,Discontinued
+SKU-00494,Basic System Pro,Home & Garden,98.12,197.05,396,20,31,WH-A-17,SUP-011,Active
+SKU-00495,Elite Pack X1,Apparel,234.53,406.48,326,133,24,WH-B-07,SUP-012,Seasonal
+SKU-00496,Elite Gadget V2,Home & Garden,179.91,253.65,28,83,39,WH-A-38,SUP-037,Active
+SKU-00497,Pro System SE,Sports,293.91,705.61,471,118,38,WH-C-28,SUP-027,Active
+SKU-00498,Ultra Set Pro,Electronics,43.48,63.66,270,142,15,WH-D-37,SUP-026,Active
+SKU-00499,Max Tool 500,Food & Beverage,487.33,1189.22,11,120,32,WH-A-50,SUP-047,Active
+SKU-00500,Basic Widget X2,Electronics,493.17,905.07,742,26,39,WH-A-26,SUP-029,Discontinued

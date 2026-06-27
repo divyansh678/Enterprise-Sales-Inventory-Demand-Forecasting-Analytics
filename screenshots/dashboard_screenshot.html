@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f3f2f1; width: 1280px; }
+  .pbi-shell { display: flex; flex-direction: column; height: 800px; background: #f3f2f1; }
+  .topbar { background: #1f3864; height: 44px; display: flex; align-items: center; padding: 0 16px; gap: 16px; }
+  .topbar-logo { color: #ffd700; font-weight: 700; font-size: 15px; letter-spacing: 0.5px; }
+  .topbar-title { color: #c8d4e8; font-size: 13px; }
+  .topbar-tabs { display: flex; gap: 2px; margin-left: auto; }
+  .tab { color: #c8d4e8; font-size: 12px; padding: 6px 14px; cursor: pointer; border-radius: 4px 4px 0 0; }
+  .tab.active { background: #f3f2f1; color: #1f3864; font-weight: 600; }
+  .canvas { flex: 1; padding: 14px; display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: auto auto 1fr 1fr; gap: 10px; }
+
+  .card { background: #fff; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.12); padding: 12px 14px; }
+  .kpi-row { grid-column: span 12; display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+  .kpi { background: #fff; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.12); padding: 12px 14px; }
+  .kpi-label { font-size: 11px; color: #605e5c; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; }
+  .kpi-value { font-size: 26px; font-weight: 700; color: #1f3864; margin-top: 4px; }
+  .kpi-delta { font-size: 11px; margin-top: 3px; display: flex; align-items: center; gap: 3px; }
+  .kpi-delta.up { color: #107c41; }
+  .kpi-delta.down { color: #c62828; }
+  .kpi-bar { height: 3px; background: #e1dfdd; border-radius: 2px; margin-top: 8px; }
+  .kpi-bar-fill { height: 3px; border-radius: 2px; }
+
+  .chart-title { font-size: 12px; font-weight: 600; color: #323130; margin-bottom: 8px; }
+  .chart-sub   { font-size: 10px; color: #605e5c; margin-bottom: 10px; }
+
+  /* Revenue trend */
+  .rev-trend { grid-column: span 7; }
+  /* Category donut */
+  .cat-donut { grid-column: span 3; }
+  /* channel */
+  .channel-bar { grid-column: span 2; }
+  /* region map */
+  .region-map { grid-column: span 4; }
+  /* top SKUs */
+  .top-skus  { grid-column: span 4; }
+  /* inventory */
+  .inv-gauge { grid-column: span 4; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .legend-item { display: flex; align-items: center; gap: 4px; font-size: 10px; color: #605e5c; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 2px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 11px; }
+  th { background: #f3f2f1; color: #605e5c; font-size: 10px; font-weight: 600; text-align: left; padding: 5px 6px; border-bottom: 1px solid #e1dfdd; text-transform: uppercase; }
+  td { padding: 5px 6px; color: #323130; border-bottom: 1px solid #f3f2f1; }
+  tr:hover td { background: #f8f7f6; }
+
+  .slicer-row { grid-column: span 12; display: flex; gap: 8px; align-items: center; }
+  .slicer-label { font-size: 11px; color: #605e5c; font-weight: 600; }
+  .slicer-pill { background: #e8f0fe; color: #1f3864; font-size: 11px; padding: 3px 10px; border-radius: 12px; font-weight: 600; }
+  .slicer-pill.inactive { background: #f3f2f1; color: #605e5c; font-weight: 400; }
+  .filter-icon { font-size: 11px; color: #605e5c; margin-left: auto; }
+</style>
+</head>
+<body>
+<div class="pbi-shell">
+  <div class="topbar">
+    <span class="topbar-logo">⚡ Power BI</span>
+    <span class="topbar-title">Enterprise Sales &amp; Inventory Analytics</span>
+    <div class="topbar-tabs">
+      <div class="tab active">Sales Overview</div>
+      <div class="tab">Customer Analysis</div>
+      <div class="tab">Inventory</div>
+      <div class="tab">Demand Forecast</div>
+      <div class="tab">Supply Chain</div>
+      <div class="tab">Executive Summary</div>
+    </div>
+  </div>
+
+  <div class="canvas">
+    <!-- Slicers -->
+    <div class="slicer-row">
+      <span class="slicer-label">Year:</span>
+      <span class="slicer-pill">2024</span><span class="slicer-pill inactive">2023</span><span class="slicer-pill inactive">2022</span>
+      <span style="width:1px;background:#e1dfdd;height:18px;margin:0 4px;"></span>
+      <span class="slicer-label">Region:</span>
+      <span class="slicer-pill">All Regions</span>
+      <span style="width:1px;background:#e1dfdd;height:18px;margin:0 4px;"></span>
+      <span class="slicer-label">Channel:</span>
+      <span class="slicer-pill">All Channels</span>
+      <span style="width:1px;background:#e1dfdd;height:18px;margin:0 4px;"></span>
+      <span class="slicer-label">Segment:</span>
+      <span class="slicer-pill">All</span>
+      <span class="filter-icon" style="margin-left:auto;">🔽 Filters</span>
+      <span style="font-size:10px;color:#605e5c;">Last refreshed: Jun 27, 2024 &nbsp;|&nbsp; 50,000 records loaded</span>
+    </div>
+
+    <!-- KPI Row -->
+    <div class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-label">Total Revenue</div>
+        <div class="kpi-value">$47.3M</div>
+        <div class="kpi-delta up">▲ 12.4% vs prior year</div>
+        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:74%;background:#1f3864;"></div></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Gross Profit</div>
+        <div class="kpi-value">$18.9M</div>
+        <div class="kpi-delta up">▲ 9.1% YoY</div>
+        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:62%;background:#107c41;"></div></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Gross Margin</div>
+        <div class="kpi-value">39.9%</div>
+        <div class="kpi-delta down">▼ 1.2pp YoY</div>
+        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:40%;background:#f59d00;"></div></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Total Orders</div>
+        <div class="kpi-value">50,000</div>
+        <div class="kpi-delta up">▲ 8.3% YoY</div>
+        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:80%;background:#0078d4;"></div></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Avg Order Value</div>
+        <div class="kpi-value">$946</div>
+        <div class="kpi-delta up">▲ 3.8% YoY</div>
+        <div class="kpi-bar"><div class="kpi-bar-fill" style="width:55%;background:#6264a7;"></div></div>
+      </div>
+    </div>
+
+    <!-- Revenue Trend -->
+    <div class="card rev-trend">
+      <div class="chart-title">Monthly Revenue vs. Prior Year</div>
+      <div class="chart-sub">Total Revenue · Gross Profit · 2024 vs 2023</div>
+      <svg width="100%" height="160" viewBox="0 0 640 160">
+        <!-- gridlines -->
+        <line x1="0" y1="20" x2="640" y2="20" stroke="#f3f2f1" stroke-width="1"/>
+        <line x1="0" y1="60" x2="640" y2="60" stroke="#f3f2f1" stroke-width="1"/>
+        <line x1="0" y1="100" x2="640" y2="100" stroke="#f3f2f1" stroke-width="1"/>
+        <line x1="0" y1="140" x2="640" y2="140" stroke="#e1dfdd" stroke-width="1"/>
+        <!-- Y labels -->
+        <text x="0" y="18" font-size="9" fill="#a19f9d">$5M</text>
+        <text x="0" y="58" font-size="9" fill="#a19f9d">$4M</text>
+        <text x="0" y="98" font-size="9" fill="#a19f9d">$3M</text>
+        <!-- 2023 area (dashed) -->
+        <polyline points="30,115 83,108 136,102 189,118 242,95 295,88 348,104 401,92 454,86 507,98 560,80 613,75"
+          fill="none" stroke="#a19f9d" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <!-- 2024 area -->
+        <polygon points="30,100 83,90 136,85 189,105 242,78 295,68 348,88 401,72 454,64 507,82 560,58 613,52 613,140 30,140"
+          fill="#1f386415"/>
+        <polyline points="30,100 83,90 136,85 189,105 242,78 295,68 348,88 401,72 454,64 507,82 560,58 613,52"
+          fill="none" stroke="#1f3864" stroke-width="2.5"/>
+        <!-- GP line -->
+        <polyline points="30,122 83,114 136,110 189,124 242,104 295,96 348,112 401,100 454,94 507,106 560,88 613,84"
+          fill="none" stroke="#107c41" stroke-width="2"/>
+        <!-- dots -->
+        <circle cx="613" cy="52" r="4" fill="#1f3864"/>
+        <circle cx="507" cy="82" r="3" fill="#1f3864"/>
+        <!-- X labels -->
+        <text x="28" y="155" font-size="9" fill="#605e5c">Jan</text>
+        <text x="81" y="155" font-size="9" fill="#605e5c">Feb</text>
+        <text x="134" y="155" font-size="9" fill="#605e5c">Mar</text>
+        <text x="187" y="155" font-size="9" fill="#605e5c">Apr</text>
+        <text x="240" y="155" font-size="9" fill="#605e5c">May</text>
+        <text x="293" y="155" font-size="9" fill="#605e5c">Jun</text>
+        <text x="346" y="155" font-size="9" fill="#605e5c">Jul</text>
+        <text x="399" y="155" font-size="9" fill="#605e5c">Aug</text>
+        <text x="452" y="155" font-size="9" fill="#605e5c">Sep</text>
+        <text x="505" y="155" font-size="9" fill="#605e5c">Oct</text>
+        <text x="558" y="155" font-size="9" fill="#605e5c">Nov</text>
+        <text x="611" y="155" font-size="9" fill="#605e5c">Dec</text>
+      </svg>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#1f3864;"></div>Revenue 2024</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#107c41;"></div>Gross Profit 2024</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#a19f9d;"></div>Revenue 2023</div>
+      </div>
+    </div>
+
+    <!-- Category donut -->
+    <div class="card cat-donut">
+      <div class="chart-title">Revenue by Category</div>
+      <div class="chart-sub">% of Total · 8 categories</div>
+      <svg width="100%" height="140" viewBox="0 0 220 140">
+        <!-- donut -->
+        <circle cx="80" cy="72" r="45" fill="none" stroke="#1f3864" stroke-width="22" stroke-dasharray="70 213"/>
+        <circle cx="80" cy="72" r="45" fill="none" stroke="#0078d4" stroke-width="22" stroke-dasharray="45 213" stroke-dashoffset="-70"/>
+        <circle cx="80" cy="72" r="45" fill="none" stroke="#107c41" stroke-width="22" stroke-dasharray="35 213" stroke-dashoffset="-115"/>
+        <circle cx="80" cy="72" r="45" fill="none" stroke="#f59d00" stroke-width="22" stroke-dasharray="28 213" stroke-dashoffset="-150"/>
+        <circle cx="80" cy="72" r="45" fill="none" stroke="#6264a7" stroke-width="22" stroke-dasharray="20 213" stroke-dashoffset="-178"/>
+        <circle cx="80" cy="72" r="45" fill="none" stroke="#c62828" stroke-width="22" stroke-dasharray="15 213" stroke-dashoffset="-198"/>
+        <text x="80" y="68" text-anchor="middle" font-size="16" font-weight="700" fill="#1f3864">$47.3M</text>
+        <text x="80" y="82" text-anchor="middle" font-size="9" fill="#605e5c">Total</text>
+        <!-- legend -->
+        <rect x="140" y="15" width="8" height="8" fill="#1f3864" rx="1"/>
+        <text x="152" y="23" font-size="9" fill="#323130">Electronics 33%</text>
+        <rect x="140" y="30" width="8" height="8" fill="#0078d4" rx="1"/>
+        <text x="152" y="38" font-size="9" fill="#323130">Apparel 21%</text>
+        <rect x="140" y="45" width="8" height="8" fill="#107c41" rx="1"/>
+        <text x="152" y="53" font-size="9" fill="#323130">Home &amp; Garden 16%</text>
+        <rect x="140" y="60" width="8" height="8" fill="#f59d00" rx="1"/>
+        <text x="152" y="68" font-size="9" fill="#323130">Sports 13%</text>
+        <rect x="140" y="75" width="8" height="8" fill="#6264a7" rx="1"/>
+        <text x="152" y="83" font-size="9" fill="#323130">Food &amp; Bev 9%</text>
+        <rect x="140" y="90" width="8" height="8" fill="#c62828" rx="1"/>
+        <text x="152" y="98" font-size="9" fill="#323130">Other 8%</text>
+      </svg>
+    </div>
+
+    <!-- Channel bar -->
+    <div class="card channel-bar">
+      <div class="chart-title">Sales Channel Mix</div>
+      <div class="chart-sub">Revenue share</div>
+      <svg width="100%" height="140" viewBox="0 0 160 140">
+        <!-- bars -->
+        <rect x="10" y="15" width="96" height="16" rx="2" fill="#1f3864"/>
+        <text x="110" y="27" font-size="9" fill="#323130">Online 30%</text>
+        <rect x="10" y="38" width="75" height="16" rx="2" fill="#0078d4"/>
+        <text x="89" y="50" font-size="9" fill="#323130">Retail 23%</text>
+        <rect x="10" y="61" width="68" height="16" rx="2" fill="#107c41"/>
+        <text x="82" y="73" font-size="9" fill="#323130">Wholesale 21%</text>
+        <rect x="10" y="84" width="55" height="16" rx="2" fill="#f59d00"/>
+        <text x="69" y="96" font-size="9" fill="#323130">Direct 17%</text>
+        <rect x="10" y="107" width="29" height="16" rx="2" fill="#6264a7"/>
+        <text x="43" y="119" font-size="9" fill="#323130">Partner 9%</text>
+      </svg>
+    </div>
+
+    <!-- Region map placeholder -->
+    <div class="card region-map">
+      <div class="chart-title">Revenue by Region</div>
+      <div class="chart-sub">Bubble size = revenue · Color = growth</div>
+      <svg width="100%" height="175" viewBox="0 0 340 175">
+        <rect x="0" y="0" width="340" height="175" fill="#f8f9fc" rx="3"/>
+        <!-- simplified US outline -->
+        <path d="M40,30 L280,30 L300,60 L290,130 L260,150 L200,155 L150,150 L100,148 L60,145 L30,110 L25,70 Z"
+          fill="#e8eaf2" stroke="#c8d4e8" stroke-width="1.5"/>
+        <!-- bubbles -->
+        <circle cx="100" cy="70" r="28" fill="#1f386430" stroke="#1f3864" stroke-width="1.5"/>
+        <text x="100" y="66" text-anchor="middle" font-size="9" font-weight="700" fill="#1f3864">North</text>
+        <text x="100" y="78" text-anchor="middle" font-size="8" fill="#1f3864">$11.2M</text>
+        <circle cx="220" cy="65" r="22" fill="#0078d430" stroke="#0078d4" stroke-width="1.5"/>
+        <text x="220" y="61" text-anchor="middle" font-size="9" font-weight="700" fill="#0078d4">East</text>
+        <text x="220" y="73" text-anchor="middle" font-size="8" fill="#0078d4">$9.8M</text>
+        <circle cx="165" cy="110" r="18" fill="#107c4130" stroke="#107c41" stroke-width="1.5"/>
+        <text x="165" y="106" text-anchor="middle" font-size="9" font-weight="700" fill="#107c41">Central</text>
+        <text x="165" y="118" text-anchor="middle" font-size="8" fill="#107c41">$8.1M</text>
+        <circle cx="80" cy="120" r="15" fill="#f59d0030" stroke="#f59d00" stroke-width="1.5"/>
+        <text x="80" y="116" text-anchor="middle" font-size="9" font-weight="700" fill="#8a5c00">South</text>
+        <text x="80" y="128" text-anchor="middle" font-size="8" fill="#8a5c00">$9.3M</text>
+        <circle cx="260" cy="115" r="12" fill="#6264a730" stroke="#6264a7" stroke-width="1.5"/>
+        <text x="260" y="111" text-anchor="middle" font-size="9" font-weight="700" fill="#6264a7">West</text>
+        <text x="260" y="123" text-anchor="middle" font-size="8" fill="#6264a7">$8.9M</text>
+      </svg>
+    </div>
+
+    <!-- Top SKUs table -->
+    <div class="card top-skus">
+      <div class="chart-title">Top 10 SKUs by Revenue</div>
+      <div class="chart-sub">2024 · Sorted by revenue descending</div>
+      <table>
+        <thead><tr><th>SKU</th><th>Product</th><th>Revenue</th><th>Margin</th></tr></thead>
+        <tbody>
+          <tr><td>SKU-00142</td><td>Ultra Widget X2</td><td>$312K</td><td style="color:#107c41;">44%</td></tr>
+          <tr><td>SKU-00387</td><td>Pro Gadget Pro</td><td>$287K</td><td style="color:#107c41;">41%</td></tr>
+          <tr><td>SKU-00219</td><td>Elite Device Air</td><td>$261K</td><td style="color:#107c41;">38%</td></tr>
+          <tr><td>SKU-00455</td><td>Max Tool 3000</td><td>$244K</td><td style="color:#f59d00;">29%</td></tr>
+          <tr><td>SKU-00078</td><td>Premium Kit SE</td><td>$228K</td><td style="color:#107c41;">36%</td></tr>
+          <tr><td>SKU-00301</td><td>Std System Go</td><td>$197K</td><td style="color:#f59d00;">27%</td></tr>
+          <tr><td>SKU-00163</td><td>Basic Module V2</td><td>$184K</td><td style="color:#c62828;">18%</td></tr>
+          <tr><td>SKU-00422</td><td>Plus Pack Plus</td><td>$176K</td><td style="color:#107c41;">33%</td></tr>
+          <tr><td>SKU-00090</td><td>Advanced Set X1</td><td>$169K</td><td style="color:#f59d00;">24%</td></tr>
+          <tr><td>SKU-00337</td><td>Mini Unit Ultra</td><td>$158K</td><td style="color:#107c41;">40%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Inventory gauge -->
+    <div class="card inv-gauge">
+      <div class="chart-title">Inventory Health &amp; 90-Day Forecast</div>
+      <div class="chart-sub">500 SKUs · Demand forecast confidence bands</div>
+      <svg width="100%" height="175" viewBox="0 0 340 175">
+        <!-- KPI tiles -->
+        <rect x="5" y="5" width="100" height="50" rx="3" fill="#f3f2f1"/>
+        <text x="55" y="22" text-anchor="middle" font-size="9" fill="#605e5c">STOCK VALUE</text>
+        <text x="55" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1f3864">$8.4M</text>
+        <rect x="115" y="5" width="100" height="50" rx="3" fill="#fff4ce"/>
+        <text x="165" y="22" text-anchor="middle" font-size="9" fill="#605e5c">BELOW REORDER</text>
+        <text x="165" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#f59d00">73 SKUs</text>
+        <rect x="225" y="5" width="108" height="50" rx="3" fill="#dff6dd"/>
+        <text x="279" y="22" text-anchor="middle" font-size="9" fill="#605e5c">FULFILLMENT</text>
+        <text x="279" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#107c41">94.7%</text>
+        <!-- Forecast mini chart -->
+        <text x="5" y="75" font-size="9" font-weight="600" fill="#323130">30/60/90-Day Demand Forecast (Avg across 500 SKUs)</text>
+        <!-- gridlines -->
+        <line x1="5" y1="165" x2="335" y2="165" stroke="#e1dfdd" stroke-width="1"/>
+        <line x1="5" y1="140" x2="335" y2="140" stroke="#f3f2f1" stroke-width="1"/>
+        <line x1="5" y1="115" x2="335" y2="115" stroke="#f3f2f1" stroke-width="1"/>
+        <!-- historical -->
+        <polyline points="5,148 45,142 85,138 125,144 165,132"
+          fill="none" stroke="#1f3864" stroke-width="2"/>
+        <!-- confidence band -->
+        <polygon points="165,132 205,122 245,116 285,108 325,100 325,130 285,136 245,140 205,142 165,132"
+          fill="#1f386418"/>
+        <!-- forecast line -->
+        <polyline points="165,132 205,122 245,116 285,108 325,100"
+          fill="none" stroke="#1f3864" stroke-width="2" stroke-dasharray="5,3"/>
+        <!-- 30/60/90 markers -->
+        <line x1="205" y1="80" x2="205" y2="165" stroke="#f59d00" stroke-width="1" stroke-dasharray="3,2"/>
+        <text x="207" y="90" font-size="8" fill="#f59d00">30d</text>
+        <line x1="245" y1="80" x2="245" y2="165" stroke="#f59d00" stroke-width="1" stroke-dasharray="3,2"/>
+        <text x="247" y="90" font-size="8" fill="#f59d00">60d</text>
+        <line x1="285" y1="80" x2="285" y2="165" stroke="#c62828" stroke-width="1" stroke-dasharray="3,2"/>
+        <text x="287" y="90" font-size="8" fill="#c62828">90d</text>
+        <!-- today marker -->
+        <line x1="165" y1="80" x2="165" y2="165" stroke="#323130" stroke-width="1.5"/>
+        <text x="150" y="90" font-size="8" fill="#323130">Today</text>
+      </svg>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
